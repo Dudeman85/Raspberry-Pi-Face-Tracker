@@ -1,6 +1,5 @@
 # Raspberry-Pi-Face-Tracker
 
-The source code for an object tracking camera.
-Run on a Raspberry Pi
-Use a Haar cascade for OpenCV as the target object
-2 servos to control x and y of camera
+This is a basic C++ program designed to run OpenCV on a Raspberry Pi 3.
+It uses a Haar cascade classifier, and will steadily run at around 20 fps.
+It supports a two servo gimball that will track the desired object.
